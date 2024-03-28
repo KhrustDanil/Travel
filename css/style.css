@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'Raleway';
+    src: url(/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf) format('truetype');
+}
+
+body {
+    background-image: url("../images/fon.jpeg") ;
+    font-family: 'Raleway', Arial, sans-serif ;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+}
