@@ -13,3 +13,50 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    top: 50px;
+}
+
+.header__menu-item, a {
+    text-decoration: none;
+    color: #0a60c2;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.sub {
+    position: relative;
+}
+
+.sub:hover .submenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    white-space: nowrap;
+}
+
+.header__county-title {
+    position: absolute;
+    color: #ffffff;
+    top: 200px;
+    left: 400px;
+    font-size: 2.5rem;
+}
+
+.header__county-picture {
+    width: 80%;
+    margin: 7% 0 0 10%;
+}
