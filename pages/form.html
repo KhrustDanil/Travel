@@ -8,6 +8,59 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="conteiner">
+        <div class="main">
+            <h1 class="main__heading">Відправити запит</h1>
+            <form method="POST" action="https://fom.in.ua/echo">
+                <fieldset class="main__form">
+                    <div class="main__form-row">
+                        <input type="text" id="main__tourist-name" placeholder="ПІБ" name="Ім'я">
+                        <input type="email" id="main__tourist-email" placeholder="E-mail" name="Email">
+                        <input type="tel" pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" id="main_tourist-phone" placeholder="+38(0__)___-__-__" name="Номер телефону">
+                    </div>
+                    <div class="main__form-row">
+                        <input type="text" id="main__tourist-country" placeholder="Країна туру" name="Країна">
+                        <select id="main__tourist-days" name="Кількість днів/ночей" >
+                            <option value=" " disabled selected>Кількість днів/ночей</option>
+                            <option value="1-2 ночей / 2-3 дні">1-2 ночей / 2-3 дні</option>
+                            <option value="2-4 ночей / 3-5 дні">2-4 ночей / 3-5 дні</option>
+                            <option value="3-5 ночей / 4-6 дні">3-5 ночей / 4-6 дні</option>
+                            <option value="4-6 ночей / 5-7 дні">4-6 ночей / 5-7 дні</option>
+                        </select>
+                    </div>
+                    <div class="main__form-row">
+                        <label for="main__tourist-departure">
+                            Дата вильоту:
+                            <input type="date" id="main__tourist-departure" min="2024-12-28" max="2026-12-31" name="Дата відправлення">
+                        </label>
+                        <label for="main__tourist-arrive">
+                            Дата прибуття:
+                            <input type="date" id="main__tourist-arrive" min="2024-12-29" max="2026-12-31" name="Дата прибуття">
+                        </label>
+                    </div>
+                    <div class="main__form-row">
+                        <select id="main__tourist-adults" name="Кількість дорослих">
+                            <option value=" " disabled selected>Кількість дорослих</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <select id="main__tourist-child" name="Кількість дітей до 12">
+                            <option value=" " disabled selected>Кількість дітей до 12 років</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="main__form-row">
+                        <textarea id="main__tourist-wish" cols="94" rows="10" placeholder="Будемо раді вашим побажанням та запитанням" name="Запитання"></textarea>
+                    </div>
+                    <input class="main__submit" type="submit" value="Відправити">
+                </fieldset>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
