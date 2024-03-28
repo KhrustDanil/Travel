@@ -139,3 +139,68 @@ span {
 .footer__menu-item {
     margin: 2% 0;
 }
+
+.conteiner {
+    width: 40%;
+    background-color: white;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.main {
+    padding: 2%;
+}
+
+.main__heading {
+    padding: 1% 0 2% 3%;
+    border-bottom: 2px solid #0a60c2;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0a60c2;
+}
+
+.main__form-row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1%;
+}
+
+input, select {
+    height: 40px;
+    padding: 0 1.5%;
+    border-radius: 5px;
+    border: 1px solid #0a60c2;
+    
+}
+
+#main__tourist-name, #main__tourist-email, #main_tourist-phone, #main__tourist-country, #main__tourist-days, #main__tourist-adults, #main__tourist-child {
+    width: 50%;
+    margin: 1% 2%;
+}
+
+label {
+    width: 18%;
+    margin: 1% 12%;
+    padding-left: 2%;
+}
+
+#main__tourist-departure, #main__tourist-arrive {
+    width: 190%;
+    padding: 5%;
+}
+
+#main__tourist-wish {
+    resize: none;
+    padding: 10px 15px;
+}
+
+.main__submit {
+    border-color: transparent;
+    background: #76e72b;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 25%;
+    margin: 1% 0 0 37%;
+    display: block;
+}
