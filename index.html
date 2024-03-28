@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Підключив reset.-->
     <link rel="stylesheet" href="./css/reset.css" />
+    <!--Підключив style.-->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Travel</title>
 </head>
 <body>
+    <!--Додав основний div wrapper.-->
     <div id="up" class="wrapper">
+        <!--Додав header.-->
         <header class="header-conteiner">
+            <!--Додав логотип.-->
             <a class="header__logo" href="#" title="Логотип туристичної компанії"></a>
             <div class="header__menu-wrapper">
+                <!--Додав меню.-->
                 <ul class="header__menu">
                     <li class="header__menu-item sub"><a href="#">Пошук туру</a>
+                        <!--Додав випливаюче меню.-->
                         <ul class="submenu">
                             <li class="submenu__item"><a class="submenu__link" href="#">По операторам</a></li>
                             <li class="submenu__item"><a class="submenu__link" href="#">По готелям</a></li>
@@ -28,16 +35,20 @@
                     <li class="header__menu-item"><a href="#">Контакти</a></li>
                 </ul>
             </div>
+            <!--Додав основний заголовок та картинку.-->
             <div class="header__county">
                 <h1 class="header__county-title">МАЛЬДІВИ</h1>
                 <img class="header__county-picture" src="./images/maldives.jpg" alt="maldives">
             </div>
         </header>
+        <!--Додав основну частину.-->
         <div class="main-conteiner">
+            <!--Додав div з заголовком та картинкою.-->
             <div class="main__country">
                 <h2 class="main__country-title">ПРО КРАЇНУ</h2>
                 <img class="main__country-picture" src="./images/beach.jpg" alt="ocean and beach">
             </div>
+            <!--Додав інформацію про тур та країну.-->
             <div class="main__about-country">
                 <h2 class="main__about-country-title">ГАРЯЧІ ТУРИ НА МАЛЬДІВИ З КИЄВА </h2>
                 <p class="main__about-country-text">Мальдіви - це тропічний архіпелаг в Індійському океані, що складається з 1192 островів. 199 з них - заселені, а 80 є курортами. Острівна держава знаходиться в тропічній кліматичній зоні, тому протягом року температура тут практично не змінюється (310с вдень ​​і 26 0С вночі, + 24-27 температура води в океані).</p>
@@ -50,23 +61,26 @@
                 <p class="main__about-country-text">- Парк Султана. Заповідник, де ростуть дикі орхідеї, водяні лілеї і фікуси-баньяни.
                     - Палац президента. Будівля виконана в колоніальному стилі і прикрашена декоративними деталями, характерними для місцевої культури.
                     - Мечеть Великої П'ятниці. Найбільша мечеть на Мальдівських островах вибудувана з коралового каменю.</p>
-                <p class="main__about-country-text">Важливо! Ввозити тварин в країну також забороняється (заборонені до ввезення предмети вилучаються і знищуються!). Вивозити корали з країни теж заборонено.</p>
-            </div>
-            <div class="main__ask">
-                <button class="main__ask-btn" onclick="window.location.href = './pages/form.html'">Зробити запит</button>
-            </div>
-            <div class="main__yakir">
-                <a class="main__yakir-link" href="#up"><div><img src="./images/up.png" alt="up"></div></a>
-            </div>
-        </div>
-        <footer class="footer-conteiner">
-            <div class="footer__menu-wrapper">
-                <div class="footer__menu-title">
-                    <span>Інформация</span>
+                    <p class="main__about-country-text">Важливо! Ввозити тварин в країну також забороняється (заборонені до ввезення предмети вилучаються і знищуються!). Вивозити корали з країни теж заборонено.</p>
                 </div>
-                <ul class="footer__menu">
-                    <li class="footer__menu-item"><a href="#">Про компанію</a></li>
-                    <li class="footer__menu-item"><a href="#">Підбір турів</a></li>
+                <!--Зробив кнопку яка переносе на форму.-->
+                <div class="main__ask">
+                    <button class="main__ask-btn" onclick="window.location.href = './pages/form.html'">Зробити запит</button>
+                </div>
+                <!--Зробив якір який переносе на верх сторінки.-->
+                <div class="main__yakir">
+                    <a class="main__yakir-link" href="#up"><div><img src="./images/up.png" alt="up"></div></a>
+                </div>
+            </div>
+            <footer class="footer-conteiner">
+                <div class="footer__menu-wrapper">
+                    <!--Створив менюшку.-->
+                    <div class="footer__menu-title">
+                        <span>Інформация</span>
+                    </div>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#">Про компанію</a></li>
+                        <li class="footer__menu-item"><a href="#">Підбір турів</a></li>
                     <li class="footer__menu-item"><a href="#">Країни</a></li>
                     <li class="footer__menu-item"><a href="#">Наш блог</a></li>
                     <li class="footer__menu-item"><a href="#">Наші новини</a></li>
