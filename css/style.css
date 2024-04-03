@@ -19,11 +19,10 @@ body {
 /* 10 */
 .header__logo {
     display: block;
-    background: url("../images/logo.png") no-repeat center ;
-    width: 10%;
+    background: url("../images/pngwing.png") no-repeat center ;
+    width: 215px;
     height: 103px;
     position: absolute;
-    margin: 1% 0 0 1%;
 }
 
 /* 10 */
@@ -93,11 +92,26 @@ body {
 }
 
 /* 10 */
+.main__picture-right {
+    float: right;
+    width: 25%;
+    padding-left: 1%;
+}
+
+/* 10 */
+.main__picture-left {
+    float: left;
+    width: 25%;
+    padding-right: 1%;
+}
+
+/* 10 */
 .main__about-country-text {
     width: 80%;
     margin: 2% 0 0 10%;
     font-size: 1.4rem;
     opacity: 0.7;
+    line-height: 1.25;
 }
 
 /* 10 */
@@ -121,10 +135,17 @@ body {
 
 /* 10 */
 .main__yakir {
+    width: 3%;
     position: fixed;
     height: 5%;
     right: 12%;
-    top: 85%;
+    top: 78%;
+    z-index: 999;
+}
+
+/* 10 */
+.main__yakir-picture {
+    width: 100%;
     z-index: 999;
 }
 
@@ -175,13 +196,9 @@ span {
     width: 40%;
     background-color: white;
     border-radius: 8px;
-    margin: auto;
+    margin:auto;
     margin-top: 10%;
-}
-
-/* 10 */
-.main {
-    padding: 2%;
+    padding: 0.5%;
 }
 
 /* 10 */
@@ -195,7 +212,6 @@ span {
 
 /* 10 */
 .main__form-row {
-    width: 100%;
     display: flex;
     margin-bottom: 1%;
 }
@@ -216,19 +232,18 @@ input, select {
 
 /* 1 */
 label {
-    width: 18%;
-    margin: 1% 12%;
-    padding-left: 2%;
+    padding: 1% 12%;
 }
 
 /* 100 */
 #main__tourist-departure, #main__tourist-arrive {
-    width: 190%;
+    width: 100%;
     padding: 5%;
 }
 
 /* 100 */
 #main__tourist-wish {
+    width: 100%;
     resize: none;
     padding: 10px 15px;
 }
@@ -240,6 +255,20 @@ label {
     color: #ffffff;
     text-transform: uppercase;
     width: 25%;
-    margin: 1% 0 0 37%;
+    margin: 1% 0 0 25%;
     display: block;
+}
+
+/* 10 */
+.main__link {
+    font-size: 1rem;
+    padding-top: 4%;
+}
+
+/* 20 */
+.main__link:hover {
+    text-decoration: underline;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #063d91;
 }

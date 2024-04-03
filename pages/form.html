@@ -3,20 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Підключив reset.-->
     <link rel="stylesheet" href="../css/reset.css" />
-    <!--Підключив style.-->
     <link rel="stylesheet" href="../css/style.css" />
     <title>Request</title>
 </head>
 <body>
-    <!--Додав основиний div conteiner.-->
     <div class="conteiner">
-        <!--Додав main.-->
-        <div class="main">
-            <!--Додав основний заголовок.-->
+        <div class="ain">
             <h1 class="main__heading">Відправити запит</h1>
-            <!--Зробив форму,для внесення різних даних.-->
             <form method="POST" action="https://fom.in.ua/echo">
                 <fieldset class="main__form">
                     <div class="main__form-row">
@@ -60,12 +54,13 @@
                             <option value="4">4</option>
                         </select>
                     </div>
-                    <!--Додав текстове поле.-->
                     <div class="main__form-row">
                         <textarea id="main__tourist-wish" cols="94" rows="10" placeholder="Будемо раді вашим побажанням та запитанням" name="Запитання"></textarea>
                     </div>
-                    <!--Додав кнопку для відправки даних.-->
+                    <div class="main__form-row">
+                    <a class="main__link" href="../index.html">На головну</a>
                     <input class="main__submit" type="submit" value="Відправити">
+                </div>
                 </fieldset>
             </form>
         </div>
